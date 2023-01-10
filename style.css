@@ -1,0 +1,49 @@
+body{
+    background-image: url(./images/Diseño\ sin\ título.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    padding-top: 2rem;
+    margin: 2rem 1.5rem;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: rgba(7, 5, 5, 0.521);
+    padding: 1rem;
+}
+
+.contenedor{
+    color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.3rem;
+    margin: 0 auto;
+}
+
+.numero{
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 30%;
+}
+
+.numero p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.numero span p{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
