@@ -2,9 +2,12 @@ body{
     background-image: url(./images/messi.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 30%;
     padding-top: 2rem;
-    margin: 2rem 1.5rem;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vw;
+    position: relative;
 }
 
 h1{
@@ -12,6 +15,7 @@ h1{
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 1.4;
+    margin: 2rem 1.5rem;
     color: #fff;
     background-color: rgba(7, 5, 5, 0.521);
     padding: 1rem;
@@ -47,7 +51,26 @@ h1{
     letter-spacing: .1rem;
 }
 
+footer{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer p{
+    padding: 0 1rem;
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
 @media (min-width: 700px){
+
+    body{
+        min-height: 100vh;
+    }
 
     h1{
         width: 70%;
@@ -59,10 +82,15 @@ h1{
         display: flex;
         justify-content: center;
         gap: 2rem;
+        margin-top: 4rem;
+    }
+
+    .numero{
+        padding: 2rem;
     }
 
     .numero p{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .numero span p{
