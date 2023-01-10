@@ -1,8 +1,7 @@
 body{
-    background-image: url(./images/Diseño\ sin\ título.png);
+    background-image: url(./images/messi.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 30%;
     padding-top: 2rem;
     margin: 2rem 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,10 +10,12 @@ body{
 h1{
     text-align: center;
     font-size: 1.4rem;
+    letter-spacing: .05rem;
     line-height: 1.4;
     color: #fff;
     background-color: rgba(7, 5, 5, 0.521);
     padding: 1rem;
+    border-radius: .5rem;
 }
 
 .contenedor{
@@ -27,8 +28,8 @@ h1{
 }
 
 .numero{
-    background-color: rgba(0, 0, 0, 0.829);
-    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: .5rem;
     padding: .5rem;
 }
 
@@ -44,4 +45,27 @@ h1{
     font-size: .8rem;
     text-align: center;
     letter-spacing: .1rem;
+}
+
+@media (min-width: 700px){
+
+    h1{
+        width: 70%;
+        margin: 2rem auto;
+        font-size: 2.4rem;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .numero p{
+        font-size: 2.5rem;
+    }
+
+    .numero span p{
+        font-size: 1.2rem;
+    }
 }
